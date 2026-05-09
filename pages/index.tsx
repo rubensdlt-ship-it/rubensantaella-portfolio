@@ -11,7 +11,6 @@ import Whatido from './section/whatido';
 import Gallery from './section/gallery';
 import Resume from './section/resume';
 import Counter from './section/counter';
-import Blog from './section/blog';
 import Contact from './section/contact';
 import Footer from './section/footer';
 import ScrollToTopBtn from './layout/ScrollToTop';
@@ -95,11 +94,6 @@ export default function Home() {
         <Counter/>
       </section>
 
-      {/* Blog */}
-      <section id="blog" className="pb-0">
-        <Blog/>
-      </section>
-
       {/* contact */}
       <section id="contact" className="pb-0">
         <Contact/>
@@ -108,11 +102,9 @@ export default function Home() {
 
       <div className="float-text">
           <div className="de_social-icons">
-              <span className="buton"><i className="fa fa-facebook fa-lg"></i></span>
-              <span className="buton"><i className="fa fa-twitter fa-lg"></i></span>
-              <span className="buton"><i className="fa fa-instagram fa-lg"></i></span>
+              <a href="https://www.linkedin.com/in/rub%C3%A9n-santaella-consultor-experto-seo-39195932/" target="_blank" rel="noreferrer" className="buton"><i className="fa fa-linkedin fa-lg"></i></a>
           </div>
-          <span>Follow Me</span>
+          <span>Redes</span>
       </div>
     </div>
     <ScrollToTopBtn />

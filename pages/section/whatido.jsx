@@ -22,7 +22,7 @@ function Whatido() {
                     data-aos-easing="ease"
                     data-aos-once="true"
                     >
-                    <h2>What I Do</h2>
+                    <h2>Servicios Premium</h2>
                     <div className="space-border"></div>
                 </div>
             </div>
@@ -37,10 +37,10 @@ function Whatido() {
                     >
                     <div className="de_3d-box">
                         <div className="d-inner">
-                            <i className="icon_genius id-color-2"></i>
+                            <i className="icon_tools id-color-2"></i>
                             <div className="text">
-                                <h3>Branding</h3>
-                                Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
+                                <h3>Diseño Web para SEO e IA</h3>
+                                Tu web es el activo principal de tu empresa. Webs rápidas, optimizadas para Google e IA, con arquitectura técnica preparada para el Crawl Budget y la conversión.
                             </div>
                         </div>
                     </div>
@@ -54,10 +54,10 @@ function Whatido() {
                     >
                     <div className="de_3d-box">
                         <div className="d-inner">
-                            <i className="icon_tools id-color-2"></i>
+                            <i className="icon_genius id-color-2"></i>
                             <div className="text">
-                                <h3>Development</h3>
-                                Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
+                                <h3>Posicionamiento Web en Málaga</h3>
+                                SEO local para pymes y autónomos en Málaga, SEO para tiendas online y posicionamiento en la IA. Auditorías técnicas, estrategia de contenidos y Google Maps.
                             </div>
                         </div>
                     </div>
@@ -73,8 +73,8 @@ function Whatido() {
                         <div className="d-inner">
                             <i className="icon_camera_alt id-color-2"></i>
                             <div className="text">
-                                <h3>Photography</h3>
-                                Ex velit cupidatat magna voluptate deserunt quis et dolor adipisicing elit culpa ad exercitation proident irure deserunt irure.
+                                <h3>Integraciones IA, UX & CRO</h3>
+                                Chatbots, agentes de voz, calculadoras interactivas y automatización de procesos. Si tiene sentido para tu negocio en Málaga, lo construimos. Mejora de la usabilidad de tu web y optimización de las conversiones. 
                             </div>
                         </div>
                     </div>

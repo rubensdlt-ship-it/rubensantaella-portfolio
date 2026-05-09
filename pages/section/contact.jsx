@@ -48,7 +48,7 @@ export default function Contactus() {
                                 data-aos-duration="1000"
                                 data-aos-easing="ease"
                                 >
-                                <h2>Contact Me</h2>
+                                <h2>Contacto rápido</h2>
                                 <div className="space-border"></div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ export default function Contactus() {
                                         <div id='failed' className='hide'>Message failed...</div>
                                         <div id='submit' className="mt30">
                                             <button type='submit' id='send_message' className="btn-main">
-                                                Send Message
+                                                Enviar
                                             </button>
                                         </div>
 
@@ -98,17 +98,17 @@ export default function Contactus() {
                                 <div className="col-md-4">
                                     <div className="wm-1"></div>
                                     <h6>Email Me</h6>
-                                    <p>contact@rubensantaella.com</p>
+                                    <p>info@rubensantaella.es</p>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="wm-1"></div>
-                                    <h6>Call Me</h6>
-                                    <p>+1 700 333 92 96</p>
+                                    <h6>WhatsApp</h6>
+                                    <p>+615 33 69 60</p>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="wm-1"></div>
-                                    <h6>Address</h6>
-                                    <p>Collins Street West, Louisiana, Bayerfurt, USA</p>
+                                    <h6>Oficina</h6>
+                                    <p>951 56 20 99</p>
                                 </div>
                             </div>
                         </div>

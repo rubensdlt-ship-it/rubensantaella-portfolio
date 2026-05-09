@@ -29,7 +29,7 @@ function About() {
                         data-aos-delay="0"
                         data-aos-duration="1000"
                         data-aos-easing="ease"
-                        data-aos-once="true">About Me</h2>
+                        data-aos-once="true">Sobre mí</h2>
 	                <div className="space-border"
 	                	data-aos="fade-up"
                         data-aos-delay="20"
@@ -45,10 +45,9 @@ function About() {
                     data-aos-easing="ease"
                     data-aos-once="true"
 	            	>
-	            	<p>I am a website designer from Lousiana, with a strong focus in UI/UX design. 
-	                I love to get new experiences and always learn from my surroundings. 
-	                I&apos;ve done more than 285 projects. You can check it through portfolio section on
-	                this website. I looking forward to any opportunities and challenges. 
+	            	<p>Soy experto en SEO con más de 15 años de experiencia. 
+                  Estoy especializado en SEO para páginas web, SEO Local para Google Business Profile y GEO, o SEO optimizado para IA. 
+                  Trabajo para pymes y autónomos, ayudándoles a mejorar su visibilidad online y atraer más clientes.
                      </p>
 	            </div>
 			</div>
@@ -60,8 +59,8 @@ function About() {
                     data-aos-easing="ease"
                     data-aos-once="true"
 					>
-                    <CircularProgressbar value={90} text={`${90}.0%`} />
-				      <h4 className="mt-2">HTML</h4>
+                    <CircularProgressbar value={100} text={`${100}.0%`} />
+				      <h4 className="mt-2">Diseño web para SEO</h4>
                 </div>
                 <div className="col-lg-3 p-5 text-center"
                 	data-aos="fade"
@@ -70,8 +69,8 @@ function About() {
                     data-aos-easing="ease"
                     data-aos-once="true"
                 	>
-                     <CircularProgressbar value={85} text={`${85}.0%`} />
-				      <h4 className="mt-2">CSS</h4>
+                     <CircularProgressbar value={100} text={`${100}.0%`} />
+				      <h4 className="mt-2">SEO Web, SEO Local & GEO</h4>
                 </div>
                 <div className="col-lg-3 p-5 text-center"
                 	data-aos="fade"
@@ -80,8 +79,8 @@ function About() {
                     data-aos-easing="ease"
                     data-aos-once="true"
                 	>
-                     <CircularProgressbar value={80} text={`${80}.0%`} />
-				      <h4 className="mt-2">PHP</h4>
+                     <CircularProgressbar value={100} text={`${100}.0%`} />
+				      <h4 className="mt-2">Integracionnes IA, UX y CRO</h4>
                 </div>
                 <div className="col-lg-3 p-5 text-center"
                 	data-aos="fade"
@@ -90,8 +89,8 @@ function About() {
                     data-aos-easing="ease"
                     data-aos-once="true"
                 	>
-                     <CircularProgressbar value={75} text={`${75}.0%`} />
-				      <h4 className="mt-2">Javascript</h4>
+                     <CircularProgressbar value={100} text={`${100}.0%`} />
+				      <h4 className="mt-2">Gestión  Web & Servidores</h4>
                 </div>
 			</div>
 		</div>

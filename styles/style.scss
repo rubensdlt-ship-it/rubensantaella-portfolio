@@ -41,8 +41,8 @@ $general: #727272;
 $black_soft: #333;
 $black_col: #2e333c;
 $black_more: #0f0f0f;
-$color: #cf1f1f;
-$color_more: #bc1c1c;
+$color: #009bff;
+$color_more: #008be6;
 
 /*font*/
 * {
@@ -883,7 +883,7 @@ h3.s_border {
 }
 .slick-dots li.slick-active button::before{
   font-size: 10px !important;
-  color: #cf1f1f !important;
+  color: #009bff !important;
 }
 .blog-read img {
   margin-bottom: 30px;
@@ -972,7 +972,7 @@ h3.s_border {
   transition: 1s ease;
 }
 .swiper-pagination-bullet-active{
-  background: linear-gradient(to right, #eb3349, #f45c43) !important;
+  background: linear-gradient(to right, #009bff, #54c9ff) !important;
 }
 
 
@@ -1343,7 +1343,7 @@ video.pop {
   stroke: rgb(47, 49, 52) !important;
 }
 .CircularProgressbar .CircularProgressbar-path{
-  stroke: #cf1f1f !important;
+  stroke: #009bff !important;
   stroke-width:3 !important;
 }
 .CircularProgressbar .CircularProgressbar-text{

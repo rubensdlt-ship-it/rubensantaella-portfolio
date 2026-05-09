@@ -14,7 +14,7 @@ function Hero() {
     });
 
     const options = {
-      strings: ["CONSULTOR SEO, SEM, GEO"],
+      strings: ["CONSULTOR<br> SEO, SEM, GEO<br>Diseño web para SEO<br>Integraciones IA"],
       typeSpeed: 60,
       backSpeed: 50,
       loop: true,
@@ -63,14 +63,11 @@ function Hero() {
               data-aos-once="true"
             >
               <li>
-                <span>France</span>Bodin, Chauveau
+                <span>Málaga</span>Torremolinos Centro
               </li>
               <li>
-                <span>USA</span>Louisiana, Bayerfurt
-              </li>
-              <li>
-                <span>German</span>Hamburg, Dortmund
-              </li>
+                <span>Marbella</span>Av. del Mercado
+              </li>              
             </ul>
           </div>
         </div>

@@ -53,7 +53,7 @@ function Gallery() {
             <div className="container px-0">
                 <div className="row">
                     <div className="col-md-12 text-center">
-                        <h2>Portfolio</h2>
+                        <h2>Proyectos recientes</h2>
                         <div className="space-border"></div>
                     </div>
                 </div>
@@ -67,8 +67,8 @@ function Gallery() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Archi Interior Design</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Universidad de Málaga</h3>
+                                <h5 className="d-tag">Proyecto Big Data & IA</h5>
                             </div>
                             <Image width="100" height="100" src="./img/gallery/1.jpg" alt="gallery"/>
                         </div>
@@ -79,8 +79,8 @@ function Gallery() {
                         > 
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Self Hosted Video</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>IFMIF-DONES España</h3>
+                                <h5 className="d-tag">Desarrollo de aplicaciones</h5>
                             </div>
                             <Image width="100" height="100" src="./img/gallery/2.jpg" alt="gallery"/>
                         </div>
@@ -91,8 +91,8 @@ function Gallery() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Justica Lawyer</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Planeta Explora</h3>
+                                <h5 className="d-tag">Diseño web e integraciones IA</h5>
                             </div>
                             <Image width="100" height="100" src="./img/gallery/3.jpg" alt="gallery"/>
                         </div>
@@ -103,8 +103,8 @@ function Gallery() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Uhost Hosting</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Muebles Gavira</h3>
+                                <h5 className="d-tag">Diseño web, integraciones IA, Redes y SEO Local</h5>
                             </div>
                             <Image width="100" height="100" src="./img/gallery/5.jpg" alt="gallery"/>
                         </div>
@@ -115,8 +115,8 @@ function Gallery() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Bluetec App</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>Bobby Jump</h3>
+                                <h5 className="d-tag">Diseño Web + SEO Avanzado</h5>
                             </div>
                             <Image width="100" height="100" src="./img/gallery/4.jpg" alt="gallery"/>
                         </div>
@@ -127,8 +127,8 @@ function Gallery() {
                         >
                         <div className="card-image-1">
                             <div className="d-text">
-                                <h3>Bolo Creative</h3>
-                                <h5 className="d-tag">website</h5>
+                                <h3>MicroEstética</h3>
+                                <h5 className="d-tag">Diseño Web + SEO Avanzado</h5>
                             </div>
                             <Image width="100" height="100" src="./img/gallery/6.jpg" alt="gallery"/>
                         </div>
@@ -145,31 +145,34 @@ function Gallery() {
                       <div className="mainLightbox container">
                         <div className="row g-5">
                             <div className="col-lg-8">
-                                <Image width="100" height="100" src="./img/gallery-big/1.jpg" alt="popup" className="img-fluid"/>
+                                <Image width="100" height="100" src="./img/gallery/1.jpg" alt="popup" className="img-fluid"/>
                             </div>
 
                             <div className="col-lg-4 de_project-info">
-                                <h3>Interior Design Website</h3>
-                                <p>Duis ad adipisicing id id in duis nisi qui veniam esse voluptate cillum pariatur cupidatat ut dolore amet aliquip cillum ad minim cillum nulla consectetur dolor culpa deserunt mollit dolor ea pariatur laboris sed tempor laboris quis commodo. Ut duis cupidatat consectetur cillum veniam eu quis minim irure fugiat ut consequat do veniam duis dolor quis cupidatat deserunt ut qui minim id dolor nisi sed non ut proident enim culpa dolor elit dolor aliquip dolore enim excepteur.</p>
+                                <h3>Máster Big Data e IA de la UMA</h3>
+                                <p>                                    
+                                Más de 8 años trabajando en la promoción del Máster de Big Data e Inteligencia Artificial de la UMA. 
+                                En este tiempo hemos conseguido aumentar la visibilidad y autoridad de este máster, hasta conseguir posicionarlo entre los másteres más relevantes de España. 
+                                </p>
                                
                                 <div className="de_project-details">
                                     <div className="d-field">
-                                        <i className="fa fa-user-o"></i>Client: <span>Envato</span>
+                                        <i className="fa fa-user-o"></i>Client: <span>Universidad de Málaga</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-file-text-o"></i>Type: <span>Branding</span>
+                                        <i className="fa fa-file-text-o"></i>Proyecto: <span>Visilidad de marca</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-calendar-o"></i>Year: <span>2020</span>
+                                        <i className="fa fa-calendar-o"></i>Inicio: <span>2018</span>
                                     </div>
                                     <div className="d-field">
-                                        <i className="fa fa-external-link"></i>Preview: <span><a href="https://www.envato.com" target="_blank" rel="noreferrer">www.envato.com</a></span>
+                                        <i className="fa fa-external-link"></i>Web Oficial: <span><a href="https://www.bigdata.uma.es/" target="_blank" rel="noreferrer">bigdata.uma.es</a></span>
                                     </div>
                                 </div>
                                 <div className="spacer-30"></div>
                                 <blockquote>
-                                    &quot;Very well done theme. Versatile, extremely well coded, and gorgeous. That&apos;s a great combo. Highly recommended.&quot;
-                                    <span>John Archi</span>
+                                    Máster de formación permanente de la Universidad de Málaga organizado por el Grupo de Investigación Khaos con la colaboración de empresas con amplia experiencia en el ámbito del análisis de datos en aplicaciones Big Data.
+                                    <span>Universidad de Málaga</span>
                                 </blockquote>
                             </div>
                         </div>

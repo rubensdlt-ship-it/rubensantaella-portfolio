@@ -49,37 +49,32 @@ const Navbar = function () {
              <ul className="navbar-nav">
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="hero-area">
-                  Home
+                  Inicio
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="about">
-                  About me
+                  Sobre mí
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="whatido">
-                  What I Do
+                  Servicios
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="gallery">
-                  Portofolio
+                  Clientes
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="resume">
-                  My resume
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link transition" activeClass="active" spy to="blog">
-                  Blog
+                  Experiencia
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="contact">
-                  Contact Me
+                  Contacto
                 </Link>
               </li>
             </ul>
@@ -87,42 +82,37 @@ const Navbar = function () {
           {/* Desktop menu Here */}
 
           {/* mobile menu here */}
-          {showMenu && 
+          {showMenu &&
           <div className="mobilemenu" >
             <ul className="navbar-nav mr-auto w-100 justify-content-end clearfix">
               <li className="nav-item">
                 <Link className="nav-link" activeClass="active" smooth spy to="hero-area">
-                  Home
+                  Inicio
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" activeClass="active" smooth spy to="about">
-                  About me
+                  Sobre mí
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="whatido">
-                  What I Do
+                  Servicios
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="gallery">
-                  Portofolio
+                  Clientes
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="resume">
-                  My resume
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link transition"smooth activeClass="active" spy to="blog">
-                  Blog
+                  Experiencia
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="contact">
-                  Contact Me
+                  Contacto
                 </Link>
               </li>
             </ul>
