@@ -31,9 +31,9 @@ function Counter() {
                               data-aos-easing="ease"
                               data-aos-once="true"
                                   >
-                                    <CountUp isCounting end={8240} duration={3} />
+                                    <CountUp isCounting end={20} duration={3} />
                                 </h3>
-                                <span>Hours of Works</span>
+                                <span>Años en SEO</span>
                             </div>
                         </div>
 
@@ -45,8 +45,8 @@ function Counter() {
                               data-aos-duration="1000"
                               data-aos-easing="ease"
                               data-aos-once="true"
-                                  ><CountUp isCounting end={315} duration={3} /></h3>
-                                <span>Projects Done</span>
+                                  ><CountUp isCounting end={250} duration={3} /></h3>
+                                <span>Proyectos SEO</span>
                             </div>
                         </div>
 
@@ -58,8 +58,8 @@ function Counter() {
                               data-aos-duration="1000"
                               data-aos-easing="ease"
                               data-aos-once="true"
-                                  ><CountUp isCounting end={250} duration={3} /></h3>
-                                <span>Satisfied Customers</span>
+                                  ><CountUp isCounting end={30} duration={3} /></h3>
+                                <span>Clientes Actuales</span>
                             </div>
                         </div>
 
@@ -71,8 +71,8 @@ function Counter() {
                               data-aos-duration="1000"
                               data-aos-easing="ease"
                               data-aos-once="true"
-                                  ><CountUp isCounting end={32} duration={3} /></h3>
-                                <span>Awards Winning</span>
+                                  ><CountUp isCounting end={100} duration={3} /></h3>
+                                <span>Webs en Top Google</span>
                             </div>
                         </div>
                     </div>

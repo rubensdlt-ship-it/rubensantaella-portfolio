@@ -15,7 +15,7 @@ function Resume() {
 		<div className="container">
 			<div className="row">
 				<div className="col-md-12 text-center">
-	                <h2>My Resume</h2>
+	                <h2>Experiencia y Formación</h2>
 	                <div className="space-border"></div>
 	            </div>
 			</div>
@@ -26,61 +26,55 @@ function Resume() {
                         data-aos-once="true"
                     >
                     <div className="p-4">
-                        <h3 className="s_border">Experiences</h3>
+                        <h3 className="s_border">Educación</h3>
                         <ul className="d_timeline">
                             <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2014 - now</h3>
+                                <h3 className="d_timeline-title">1990 - 1994</h3>
                                 <p className="d_timeline-text">
-                                	<span className="d_title">Founder &amp; Creative Director</span>
-                                	<span className="d_company">Rubén Santaella</span>
-                                	Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
+                                	<span className="d_title">Ingeniero Informático</span>
+                                	<span className="d_company">Universidad de Málaga</span>
+                                	Personalmente, creo en la capacitación profesional por sobre los cursillos online. Soy Ingeniero Técnico Informático de Sistemas por la Universidad de Málaga, con <strong>Matrícula de Honor en un Proyecto SEO para la UMA en 2012</strong>.
                                 </p>
                             </li>
                             <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2010 - 2014</h3>
+                                <h3 className="d_timeline-title">2012</h3>
                                 <p className="d_timeline-text">
-                                	<span className="d_title">Senior UI / UX Designer</span>
-                                	<span className="d_company">Google Inc</span>
-                                	Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
+                                	<span className="d_title">Proyecto sobre SEO</span>
+                                	<span className="d_company">Universidad de Málaga</span>
+                                	En 2012 defendí un proyecto para la <strong>UMA</strong> (cliente en la actualidad) llamado <strong>&quot;Gestión de presencia en Internet de una pequeña y mediana empresa&quot;</strong> con Matrícula de Honor unánime. Aún se puede consultar en la biblioteca de la <strong>Facultad de Ingeniería Informática</strong>.
                                 </p>
                             </li>
                             <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2008 - 2010</h3>
+                                <h3 className="d_timeline-title">...2024</h3>
                                 <p className="d_timeline-text">
-                                	<span className="d_title">Graphic Designer</span>
-                                	<span className="d_company">Rubén Santaella</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
+                                	<span className="d_title">Formación SEO constante</span>
+                                	Desde entonces no he parado de formarme y actualizarme en SEO, congresos como eCommerce Málaga, eSHOW Madrid, formación técnica en Seobox, DinoRank, participando en todo tipo de charlas, coloquios y seminarios presenciales y online.
                                 </p>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div className="col-lg-6" 
+                <div className="col-lg-6"
                     data-aos="fade-up"
                         data-aos-once="true"
                     >
                     <div className="p-4">
-                        <h3 className="s_border">Education</h3>
+                        <h3 className="s_border">Experiencia</h3>
                         <ul className="d_timeline">
                             <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2004 - 2008</h3>
+                                <h3 className="d_timeline-title">2012 - Actualidad</h3>
                                 <p className="d_timeline-text">
-                                	<span className="d_title">Master in Design</span>
-                                	<span className="d_company">New York University</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
+                                	<span className="d_title">Consultor SEO Freelance</span>
+                                	<span className="d_company">Experto en SEO Local</span>
+                                	Por allá del año 2005 ya diseñaba páginas web y daba los primeros pasos en SEO onpage. Desde 2012 me dedico 100% a asesorar y consultar SEO para pequeñas y medianas empresas y emprendedores.
                                 </p>
                             </li>
                             <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2004 - 2008</h3>
+                                <h3 className="d_timeline-title">Actualmente</h3>
                                 <p className="d_timeline-text">
-                                	<span className="d_title">Bachelor of Arts</span>
-                                	<span className="d_company">University of London</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
-                                </p>
-                            </li>
-                            <li className="d_timeline-item">
-                                <h3 className="d_timeline-title">2006 - 2004</h3>
-                                <p className="d_timeline-text">
-                                	<span className="d_title">Artist of College</span>
-                                	<span className="d_company">University of Sydney</span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tempora perferendis vero officia enim impedit voluptatem dignissimos, veniam ratione est alias rerum aperiam, nam aliquam reprehenderit iste dolor.
+                                	<span className="d_title">Proyectos de Importancia</span>
+                                	Actualmente, aparte de trabajar con mi cartera de clientes, participo en proyectos de alto nivel con la <strong>Junta de Andalucía y la Universidad de Málaga</strong> (Máster Big Data e Inteligencia Artificial), proyectos con la <strong>Politécnica de Telecomunicaciones (Proyecto EligeTeleco)</strong>, <strong>IFMIF Dones en Granada</strong>, y decenas de empresas de primer nivel de la Costa del Sol como <strong>Bobby Jump</strong> (Málaga y Marbella), <strong>Muebles Gavira</strong> (Casares Costa y Sotogrande), <strong>EnSombra</strong> (Málaga y Marbella), <strong>Mármoles Vallejo</strong> (Málaga y Marbella), <strong>Isabell&apos;s</strong> (franquicia internacional con sede en Marbella) y muchas más.
                                 </p>
                             </li>
                         </ul>

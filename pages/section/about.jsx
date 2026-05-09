@@ -37,6 +37,15 @@ function About() {
                         data-aos-easing="ease"
                         data-aos-once="true"
 	                	></div>
+	                <a href="https://www.rubensantaella.es" target="_blank" rel="noreferrer" className="btn-metallic-blue"
+	                	data-aos="fade-up"
+	                	data-aos-delay="40"
+	                	data-aos-duration="1000"
+	                	data-aos-easing="ease"
+	                	data-aos-once="true">
+	                	Web Oficial
+	                </a>
+	                <div className="spacer-30"></div>
 	            </div>
 	            <div className="col-md-8 text-center m-auto"
 	            	data-aos="fade-up"
@@ -45,6 +54,7 @@ function About() {
                     data-aos-easing="ease"
                     data-aos-once="true"
 	            	>
+                  <p> &nbsp; </p>
 	            	<p>Soy experto en SEO con más de 15 años de experiencia. 
                   Estoy especializado en SEO para páginas web, SEO Local para Google Business Profile y GEO, o SEO optimizado para IA. 
                   Trabajo para pymes y autónomos, ayudándoles a mejorar su visibilidad online y atraer más clientes.

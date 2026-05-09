@@ -1032,6 +1032,54 @@ h3.s_border {
     background: rgba(var(--primary-color-rgb), .1);
   }
 }
+#contact_form .form-control,
+#contact_form input,
+#contact_form textarea {
+  color: #ffffff !important;
+  &::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+    opacity: 1;
+  }
+  &::-webkit-input-placeholder { color: rgba(255, 255, 255, 0.6); }
+  &::-moz-placeholder { color: rgba(255, 255, 255, 0.6); opacity: 1; }
+  &:-ms-input-placeholder { color: rgba(255, 255, 255, 0.6); }
+}
+.btn-metallic-blue {
+  display: inline-block;
+  padding: 16px 44px;
+  margin-top: 8px;
+  font-size: 17px;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #003a66 0%, #0072c2 35%, #009bff 65%, #54c9ff 100%);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  box-shadow:
+    0 6px 18px rgba(0, 155, 255, 0.35),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.25);
+  transition: all 0.35s ease;
+  cursor: pointer;
+  &:hover {
+    background: linear-gradient(135deg, #004a80 0%, #0086d9 35%, #00aaff 65%, #6cd2ff 100%);
+    box-shadow:
+      0 10px 26px rgba(0, 155, 255, 0.55),
+      inset 0 1px 0 rgba(255, 255, 255, 0.35),
+      inset 0 -2px 4px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    color: #ffffff !important;
+    text-decoration: none;
+  }
+  &:active {
+    transform: translateY(0);
+    box-shadow:
+      0 3px 10px rgba(0, 155, 255, 0.4),
+      inset 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
 .mt30 {
   margin-top: 30px;
 }

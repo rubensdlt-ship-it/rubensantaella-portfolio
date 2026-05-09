@@ -61,29 +61,30 @@ export default function Contactus() {
                             >
                             <div className="contact_form_wrapper">
                                 <form name="contactForm" id="contact_form" className="form-border" onSubmit={sendEmail}>
+                                    <input type="hidden" name="to_email" value="info@rubensantaella.es" />
                                     <div className="row">
                                         <div className="col-md-4">
                                             <div className="field-set">
-                                                <input type="text" name="Name" id="name" className="form-control" placeholder="Your Name" required/>
+                                                <input type="text" name="Name" id="name" className="form-control" placeholder="Nombre" required/>
                                             </div>
                                         </div>
                                         <div className="col-md-4">
                                             <div className="field-set">
-                                                <input type="text" name="Email" id="email" className="form-control" placeholder="Your Email" required/>
+                                                <input type="text" name="Email" id="email" className="form-control" placeholder="Email" required/>
                                             </div>
                                         </div>
                                         <div className="col-md-4">
                                             <div className="field-set">
-                                                <input type="text" name="phone" id="phone" className="form-control" placeholder="Your Phone" required/>
+                                                <input type="text" name="phone" id="phone" className="form-control" placeholder="Teléfono" required/>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="text-center">
                                         <div className="field-set">
-                                            <textarea name="message" id="message" className="form-control" placeholder="Your Message" required></textarea>
+                                            <textarea name="message" id="message" className="form-control" placeholder="Cuéntame tu proyecto" required></textarea>
                                         </div>
-                                        <div id='success' className='hide'>Your message has been sent...</div>
-                                        <div id='failed' className='hide'>Message failed...</div>
+                                        <div id='success' className='hide'>Tu mensaje se ha enviado correctamente.</div>
+                                        <div id='failed' className='hide'>No se pudo enviar el mensaje. Inténtalo de nuevo.</div>
                                         <div id='submit' className="mt30">
                                             <button type='submit' id='send_message' className="btn-main">
                                                 Enviar

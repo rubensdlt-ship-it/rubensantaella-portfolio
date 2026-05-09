@@ -64,7 +64,7 @@ const Navbar = function () {
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" activeClass="active" spy to="gallery">
-                  Clientes
+                  Proyectos
                 </Link>
               </li>
               <li className="nav-item">
@@ -102,7 +102,7 @@ const Navbar = function () {
               </li>
               <li className="nav-item">
                 <Link className="nav-link transition" smooth activeClass="active" spy to="gallery">
-                  Clientes
+                  Proyectos
                 </Link>
               </li>
               <li className="nav-item">
