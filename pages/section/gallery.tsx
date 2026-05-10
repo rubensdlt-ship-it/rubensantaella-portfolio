@@ -195,7 +195,9 @@ function Gallery() {
                           "Energías Lumilec",
                           "Estudia con Zenobia",
                           "Marbella Hen Do",
-                          "SB Profesionales"
+                          "SB Profesionales",
+                          "La Gourmetería",
+                          "Munch Coffee"
                       ].map((empresa) => (
                           <div className="col-6 col-md-4 col-lg-3" key={empresa}>
                               <div className="p-3 text-center" style={{
