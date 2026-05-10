@@ -191,13 +191,11 @@ function Gallery() {
                           "Fuensol",
                           "Efisur Málaga",
                           "JM Solar",
-                          "Bobby Jump",
-                          "Muebles Gavira",
-                          "EnSombra",
-                          "MicroEstética",
-                          "Planeta Explora",
-                          "UMA – Máster Big Data & IA",
-                          "IFMIF-DONES España"
+                          "Dr. House Inmobiliaria",
+                          "Energías Lumilec",
+                          "Estudia con Zenobia",
+                          "Marbella Hen Do",
+                          "SB Profesionales"
                       ].map((empresa) => (
                           <div className="col-6 col-md-4 col-lg-3" key={empresa}>
                               <div className="p-3 text-center" style={{
