@@ -74,7 +74,7 @@ function Whatido() {
                             <i className="icon_camera_alt id-color-2"></i>
                             <div className="text">
                                 <h3>Integraciones IA, UX & CRO</h3>
-                                Chatbots, agentes de voz, calculadoras interactivas y automatización de procesos. Si tiene sentido para tu negocio en Málaga, lo construimos. Mejora de la usabilidad de tu web y optimización de las conversiones. 
+                                Chatbots, agentes de voz, calculadoras interactivas y automatización de procesos. Si tiene sentido para tu negocio en Málaga, lo construimos. Mejora de la usabilidad de tu web y optimización de las conversiones.
                             </div>
                         </div>
                     </div>

@@ -165,6 +165,68 @@ function Gallery() {
                     </div>
                   </Masonry>
 
+                  <div className="spacer-double"></div>
+                  <div className="row">
+                      <div className="col-md-12 text-center"
+                          data-aos="fade-up"
+                          data-aos-once="true"
+                      >
+                          <h3>Empresas locales con las que trabajamos activamente</h3>
+                          <p className="lead">
+                              Diseño web, posicionamiento SEO, integraciones de IA, mantenimiento integral, redes sociales y blogging para una larga lista de empresas y profesionales de la Costa del Sol y Andalucía.
+                          </p>
+                          <div className="space-border"></div>
+                      </div>
+                  </div>
+                  <div className="row g-3 justify-content-center"
+                      data-aos="fade-up"
+                      data-aos-once="true"
+                  >
+                      {[
+                          "Dra. Sara Simonsen",
+                          "Aanpak",
+                          "Clínica Tafur Málaga",
+                          "Isabell’s",
+                          "Mármoles Vallejo",
+                          "Fuensol",
+                          "Efisur Málaga",
+                          "JM Solar",
+                          "Bobby Jump",
+                          "Muebles Gavira",
+                          "EnSombra",
+                          "MicroEstética",
+                          "Planeta Explora",
+                          "UMA – Máster Big Data & IA",
+                          "IFMIF-DONES España"
+                      ].map((empresa) => (
+                          <div className="col-6 col-md-4 col-lg-3" key={empresa}>
+                              <div className="p-3 text-center" style={{
+                                  border: "1px solid rgba(255,255,255,0.08)",
+                                  borderRadius: "8px",
+                                  background: "rgba(255,255,255,0.03)",
+                                  height: "100%",
+                                  display: "flex",
+                                  alignItems: "center",
+                                  justifyContent: "center",
+                                  minHeight: "70px",
+                                  fontWeight: 500
+                              }}>
+                                  {empresa}
+                              </div>
+                          </div>
+                      ))}
+                  </div>
+                  <div className="row">
+                      <div className="col-md-12 text-center mt-4"
+                          data-aos="fade-up"
+                          data-aos-once="true"
+                      >
+                          <p className="text-muted">
+                              ...y muchas más. Cada proyecto es distinto: web + SEO Local, GBP, GEO, integraciones IA, redes sociales o mantenimiento integral &mdash; siempre adaptado al negocio.
+                          </p>
+                      </div>
+                  </div>
+
                   {/* lightbox1 */}
                   {lighbx && (
                   <div className="LightboxGal">
